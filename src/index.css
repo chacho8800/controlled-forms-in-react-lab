@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   display: flex;
@@ -6,7 +7,10 @@ body {
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
+  background-color: rgb(128, 142, 136);
 }
+
+
 
 form {
   display: flex;
@@ -16,6 +20,7 @@ form {
 
 input {
   padding: 5px;
+  background-color: rgb(96, 203, 173);
 }
 
 .bookshelfDiv {
@@ -43,6 +48,9 @@ input {
   flex-wrap: wrap;
   width: 90%;
   margin-top: 20px;
+  background-color: rgb(193, 197, 201);
+  padding: 10px;
+
 }
 
 .bookCard {
@@ -56,4 +64,15 @@ input {
   margin: 15px 10px;
   background-color: rgb(155, 155, 155);
   color: black;
+}
+
+button {
+  background-color: #ec28f38f;
+  border-radius: 8px;
+  color: white;
+  font-size: 12pt;
+  padding: 10px 10px;
+  width: 100%;
+  height: 100%;
+  
 }
